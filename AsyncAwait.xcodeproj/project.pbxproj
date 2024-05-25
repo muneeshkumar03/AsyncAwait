@@ -13,6 +13,8 @@
 		509C146F2C01D07400E311D2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 509C146E2C01D07400E311D2 /* Base */; };
 		509C14712C01D07600E311D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509C14702C01D07600E311D2 /* Assets.xcassets */; };
 		509C14742C01D07600E311D2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 509C14732C01D07600E311D2 /* Base */; };
+		509C147D2C01D0F100E311D2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C147C2C01D0F100E311D2 /* APIManager.swift */; };
+		509C14812C01E25C00E311D2 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C14802C01E25C00E311D2 /* ProductListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		509C14702C01D07600E311D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		509C14732C01D07600E311D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		509C14752C01D07600E311D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509C147C2C01D0F100E311D2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		509C14802C01E25C00E311D2 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		509C14662C01D07400E311D2 /* AsyncAwait */ = {
 			isa = PBXGroup;
 			children = (
+				509C147F2C01E24200E311D2 /* Model */,
+				509C147B2C01D0DD00E311D2 /* APIManager */,
 				509C14672C01D07400E311D2 /* AppDelegate.swift */,
 				509C14692C01D07400E311D2 /* SceneDelegate.swift */,
 				509C146B2C01D07400E311D2 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				509C14752C01D07600E311D2 /* Info.plist */,
 			);
 			path = AsyncAwait;
+			sourceTree = "<group>";
+		};
+		509C147B2C01D0DD00E311D2 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				509C147C2C01D0F100E311D2 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		509C147F2C01E24200E311D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				509C14802C01E25C00E311D2 /* ProductListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509C147D2C01D0F100E311D2 /* APIManager.swift in Sources */,
+				509C14812C01E25C00E311D2 /* ProductListModel.swift in Sources */,
 				509C146C2C01D07400E311D2 /* ViewController.swift in Sources */,
 				509C14682C01D07400E311D2 /* AppDelegate.swift in Sources */,
 				509C146A2C01D07400E311D2 /* SceneDelegate.swift in Sources */,
